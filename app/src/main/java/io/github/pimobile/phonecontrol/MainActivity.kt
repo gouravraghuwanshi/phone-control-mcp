@@ -159,8 +159,8 @@ private fun Screen() {
                 }
             }
         }
-        Text("Open source · github.com/gouravraghuwanshi/saturn-agent", style = Ph.monoSmall,
-            modifier = Modifier.clickable { open(Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/gouravraghuwanshi/saturn-agent"))) }.padding(vertical = 8.dp))
+        Text("Open source · github.com/gouravraghuwanshi/phone-control-mcp", style = Ph.monoSmall,
+            modifier = Modifier.clickable { open(Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/gouravraghuwanshi/phone-control-mcp"))) }.padding(vertical = 8.dp))
     }
 }
 
